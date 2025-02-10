@@ -1,3 +1,4 @@
+
 # Getting Started
 
 ### Reference Documentation
@@ -18,10 +19,4 @@ The following guides illustrate how to use some features concretely:
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
-# CHAP4/Branch
-
-Nom: Chammem Sinda  
-Prénom: Sinda  
-Classe: 4twin9
 
