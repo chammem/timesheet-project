@@ -20,7 +20,8 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
 # CHAP4
-Nom: Chammem Sinda
-Prénom: Sinda
+
+Nom: Chammem Sinda  
+Prénom: Sinda  
 Classe: 4twin9
 
