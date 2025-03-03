@@ -35,7 +35,7 @@ public class UserRestControl {
 	public void removeUser(@PathVariable("user-id") String userId) { 
 		userService.deleteUser(userId);
 	} 
-	
+
 	@PutMapping("/modify-user") 
 	public User updateUser(@RequestBody User user) {
 		return userService.updateUser(user);
