@@ -2,19 +2,24 @@ package tn.esprit.spring.control;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 import tn.esprit.spring.entities.User;
 import tn.esprit.spring.services.IUserService;
 
 // userRestControl
+
 @RestController // = @Controller + @ResponseBody 
 @RequestMapping("/user")
 public class UserRestControl {
 
-	@Autowired 
-	IUserService userService;
+
+	private final IUserService userService;
+
+	public UserRestControl(IUserService userService) {
+		this.userService = userService;
+	}
 
 	@GetMapping("/retrieve-all-users")
 	public List<User> retrieveAllUsers() {

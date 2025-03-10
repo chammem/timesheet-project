@@ -70,7 +70,7 @@ public class User implements Serializable {
 		this.id = id;
 	}
 	public String getFirstName() {
-		return lastName;
+		return firstName;
 	}
 	public String getLastName() {
 		return lastName;
