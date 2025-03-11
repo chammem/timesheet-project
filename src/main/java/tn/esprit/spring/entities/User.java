@@ -61,8 +61,6 @@ public class User implements Serializable {
 		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", dateNaissance="
 				+ dateNaissance + ", role=" + role + "]";
 	}
-
-
 	public Long getId() {
 		return id;
 	}
@@ -93,6 +91,4 @@ public class User implements Serializable {
 	public void setRole(Role role) {
 		this.role = role;
 	}
-	
-
 }
